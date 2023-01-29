@@ -1,0 +1,111 @@
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    margin:0px;
+    font-family: arial, sans-serif;
+  }
+
+  header nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+
+  header nav  {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  header nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+
+
+body {
+  margin:0px;
+  padding:0px;
+  color: #ffffff;
+}
+
+  main {
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    padding: 2px;
+  }
+  
+  footer{
+    margin:10px;
+    padding:2px;
+  }
+
+  pre {
+    font-family: arial, sans-serif;
+    padding:0px;
+    margin:0px;
+  }
+
+ nav>a:hover
+ {
+  background-color: green;
+  color: white;
+  padding: 5px;
+ }
+
+ main>h1
+ {
+  background-color: purple;
+  color: white;
+  padding: 5px;
+ }
+
+ body
+ {
+  background-image: url("pic1.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-position: center;
+ }
+
+
+ table
+ {
+  text-align: center;
+  
+ }
+
+ statement>p
+ {
+  line-height: 10px;
+ }
+
+ pre{
+  line-height: 21px;
+  text-transform:initial;
+  text-decoration: none;
+  text-indent: none;
+  text-align: left;
+ }
+ 
+
+ table,th,thead,td,tr
+ {
+  border: 2px solid white;
+  border-collapse: collapse;
+  padding: 11px;
+  border-spacing: 0px;
+
+ }
+ 
+ th{
+  background-color: purple;
+ }
+
+ td
+ {
+  background-color: darkgreen;
+ }

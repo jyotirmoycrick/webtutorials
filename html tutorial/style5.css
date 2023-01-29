@@ -1,0 +1,111 @@
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    margin:0px;
+    font-family: arial, sans-serif;
+  }
+
+  header nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+
+  header nav  {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  header nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+
+
+body {
+  margin:0px;
+  padding:0px;
+}
+
+  main {
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    padding: 2px;
+  }
+  
+  footer{
+    background-color: #333;
+    margin:0px;
+    padding:3px;
+    color: white;
+    font-family: arial, sans-serif;
+  }
+
+  p
+  {
+    font-family: arial, sans-serif;
+  }
+
+
+  a:hover
+  {
+    background-color: green;
+    text-decoration: none;
+    padding: 5px;
+    color: white;
+  }
+
+  a[href="https://www.facebook.com/jyotirmoy.malo.7"]:hover{
+    color: black;
+    border-style: solid;
+    border-color: black;
+    background-color: yellow;
+  }
+  
+  
+  a[href="https://www.facebook.com/jyotirmoy.malo.7"]  /*attribute selection here we chose the tag then under the third bracket we write the attribute example we select here href as a atrivute or we select a as ANCHOR TAG we have power to select the class name as a attribute and just we need to select under the third bracket*/
+  {
+    text-decoration: none;
+    text-decoration-style: bold;
+    color: white;
+    border-style: solid;
+    padding: 3px;
+    background-color: green;
+  }
+
+  h3#one
+  {
+    background-color: purple;
+    color: white;
+    padding: 3px;
+  }
+
+  body{
+    font-family: arial, sans-serif;
+  }
+
+  h1#one
+  {
+    background-color: purple;
+    padding: 3px;
+    color: white;
+  }
+
+  b
+  {
+    font-family: arial, sans-serif;
+    font-weight: 800;
+    font-style: none;
+    font-size: 18px;
+  }
+  
+  a[ href="https://www.facebook.com/jyotirmoy.malo.7"]
+  {
+    text-shadow: 1px 1px 2px #333;
+  }
+  
+
+
+  
